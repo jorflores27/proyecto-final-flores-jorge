@@ -1,0 +1,41 @@
+footer{
+    background-color: black;
+    text-align: center;
+}
+.redes a{
+    text-align: center;
+    color: darkgoldenrod;
+    text-decoration: none;
+    font-size: 30px;
+    letter-spacing: 15px; 
+}
+.redes{
+    padding-bottom: 15px;
+}
+h2{
+    color: darkgoldenrod;
+    text-shadow: 3px 3px 3px grey;
+}
+h2:hover{
+    transform: scale(0.9);
+    transition: 0.8s;
+}
+h4{
+    padding: 5px;
+    color: darkgoldenrod;
+    margin: 0px;
+}
+.subir{
+    background-color: darkgoldenrod;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    color: white;
+    line-height: 30px;
+    font-size: 30px;
+    border-radius: 50%;
+
+}

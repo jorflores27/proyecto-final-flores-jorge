@@ -1,0 +1,77 @@
+@media only screen and (min-width:823px) and (max-width:1025px){
+    .carousel-item{
+        height: 400px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:822px) and (min-width:650px){
+    ul{
+            display: flex;
+            flex-wrap: wrap;
+    }
+    .contenedor{
+        min-height: 400px;
+        width: 100%;
+        background-color: black;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: repeat(5, 200px);
+    }
+    
+    .item{
+        margin: 0px;
+    }
+    .imgMov{
+        width: 300px;
+        height: 250px;
+    }
+    .ubi{
+        width: 300px;
+        height: 250px;
+    }
+    .carousel-item{
+        height: 350px;
+        width: 100%;
+    }
+    h1{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width:649px){
+    .carousel-item{
+        height: 250px;
+        width: 100%;
+    }
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    h1{
+    font-size: 30px;
+    }
+    .itVideo{
+        height: 250px;
+        width: 100%;
+    }
+    .imgMov{
+        width: 250px;
+        height: 200px;
+    }
+    .ubi{
+        width: 200px;
+        height: 200px;
+    }
+    .contenedor{
+        min-height: 100px;
+        width: 100%;
+        background-color: black;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: repeat(5, 200px);
+    }
+    .item{
+        background-size: cover;
+    }
+}

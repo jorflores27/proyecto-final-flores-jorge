@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OPINIONES</title>
+    <meta name="description" content="Dejame saber tu experiencia">
+    <meta name="keywords" content="comentarios, crecer, mejorar, opiniones, vivencia, formulario, gracias">
+    <link rel="shortcut icon" href="../imagenes/logo.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="../estilo.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img src="../imagenes/logo.jpeg" alt="" width="200px" height="200px">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../index.html">BIENVENIDOS</a></li>
+                <li><a href="../pages/galeria.html">GALERIA DE FOTOS</a></li>
+                <li><a href="../pages/sobremi.html">SOBRE MI</a></li>
+                <li><a href="../pages/contacto.html">CONTACTO</a></li>
+                <li><a href="#">OPINIONES</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>OPINIONES</h1>
+        <h3><pCon>Deja tu comentario sobre mi trabajo:</p></h3>
+            <form class="needs-validation" novalidate>
+                <div class="form-row">
+                  <div class="col-md-6 mb-3 val">
+                    <label for="validationCustom01">Nombre</label>
+                    <input type="text" class="form-control" id="validationCustom01" value="Escribre tu nombre" required>
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-3 val">
+                    <label for="validationCustom02">Apellido</label>
+                    <input type="text" class="form-control" id="validationCustom02" value="Escribe tu apellido" required>
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="col-md-6 mb-3 val">
+                    <label for="validationCustom03">CIudad</label>
+                    <input type="text" class="form-control" id="validationCustom03" required>
+                    <div class="invalid-feedback">
+                      Please provide a valid city.
+                    </div>
+                  </div>
+                  <div class="col-md-3 mb-3 val">
+                    <label for="validationCustom04">Provincia</label>
+                    <select class="custom-select" id="validationCustom04" required>
+                      <option selected disabled value="">Selecionar...</option>
+                      <option>Salta</option>
+                      <option>Cordoba</option>
+                      <option>Buenos Aires</option>
+                      <option>Santa Fe</option>
+                      <option>Tucuman</option>
+                      <option>Jujuy</option>
+                      <option>Neuquen</option>
+                      <option>Mendoza</option>
+                    </select>
+                    <div class="invalid-feedback">
+                      Please select a valid state.
+                    </div>
+                  </div>
+                  <div class="col-md-3 mb-3 val">
+                    <label for="validationCustom05">Comentario</label>
+                    <input type="text" class="form-control" id="validationCustom05" required>
+                    <div class="invalid-feedback">
+                      Please provide a valid zip.
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label val" for="invalidCheck">
+                        Aceptar términos y condiciones
+                    </label>
+                    <div class="invalid-feedback">
+                      You must agree before submitting.
+                    </div>
+                  </div>
+                </div>
+                <button class="btn btn-primary" type="submit">Enviar</button>
+              </form>
+              
+              <script>
+              // Example starter JavaScript for disabling form submissions if there are invalid fields
+              (function() {
+                'use strict';
+                window.addEventListener('load', function() {
+                  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                  var forms = document.getElementsByClassName('needs-validation');
+                  // Loop over them and prevent submission
+                  var validation = Array.prototype.filter.call(forms, function(form) {
+                    form.addEventListener('submit', function(event) {
+                      if (form.checkValidity() === false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                      }
+                      form.classList.add('was-validated');
+                    }, false);
+                  });
+                }, false);
+              })();
+            </script>
+    </main>
+    <footer>
+      <h4><p>Todas las imagenes se reservan a derechos de autor.</p></h4>
+      <h2>REDES SOCIALES</h2>
+      <div class="redes">
+        <a href="https://www.instagram.com/jorgeflores.ph/?hl=es-la"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/jorgericardo.flores.3/"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/in/jorge-ricardo-flores-18a158219/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+  </footer>
+  <a href="#" class="subir">
+    <i class="fa-regular fa-circle-up"></i>
+  </a>
+</body>
